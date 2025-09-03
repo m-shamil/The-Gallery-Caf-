@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Café</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .footersection{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(141, 26, 26);
+    margin-top: 60px;
+    }
+    
+    .footer{
+        color: aliceblue;
+        padding-top: 20px;
+    
+    }
+    .footer i{
+        padding-right: 10px; ;
+    }
+    .footersection a{
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+    }
+    
+    .footersection a:hover{
+      color: rgb(16, 239, 53);
+    }
+    .copyright{
+      background-color: black;
+      color: aliceblue;
+      text-align: center;
+    }
+    
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="contact-info">
+                <span><i class="fa fa-map-marker"></i> 100 mount lavinia Road, Colombo </span>
+                <span><i class="fa fa-clock-o"></i> Daily : 8.00 am to 10.00 pm</span>
+            </div>
+            <div class="contact-links">
+                <span><i class="fa fa-phone"></i> +94 777670923</span>
+                <span><i class="fa fa-envelope"></i> infoShamil@GalleryCafe.com</span>
+            </div>
+        </div>
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/download (2)-fotor-bg-remover-2024092114049.png" alt="Gallery Café Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="Allmenu.php">ALL MENUS</a></li>
+                    <li><a href="#our-story">ABOUT US</a></li>
+                    <li><a href="#event">SPECIAL EVENTS</a></li>
+                    <li><a href="#menusection">PROMOTIONS</a></li>
+                    <li><a href="reservation.html">RESERVATION</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="login-signup">
+               <a href="login.html"><button>LOGIN / SIGN UP</button></a> 
+
+            </div>
+        </div>
+    </header>
+
+    <div class="slider">
+        <div class="slides">
+            <div class="slide">
+                <img src="images/Untitled design (8).png" alt="Sri Lankan Food 1">
+                <div class="slide-content">
+                    <h1>Sri Lankan delicious food</h1>
+                    <p>Come with family & feel the joy of mouthwatering food</p>
+                    <a href="menu_data.php">  <button class="view-menu-button"> View Menu</button></a>
+
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/hero-slider-1.jpg" alt="Sri Lankan Food 2">
+                <div class="slide-content">
+                    <h1>Chinese Food experience</h1>
+                    <p>Come with family & feel the joy of mouthwatering food</p>
+                    <a href="chinese.php">  <button class="view-menu-button"> View Menu</button></a>
+
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/DeWatermark.ai_1726746188065.png" alt="Sri Lankan Food 3">
+                <div class="slide-content">
+                    <h1>Italian delicious</h1>
+                    <p>Come with family & feel the joy of mouthwatering food</p>
+                    <a href="italy.php">  <button class="view-menu-button"> View Menu</button></a>
+
+                </div>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <span class="prev" onclick="changeSlide(-1)">&#10094;</span>
+            <span class="next" onclick="changeSlide(1)">&#10095;</span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="script.js"></script>
+
+
+
+
+
+
+
+
+    <section class="dining-section">
+        <div class="container">
+            <h2>Dining with Ease:<br> Explore Table Capacities, Parking, and Promotions</h2>
+            <p>Sri Lankan, Chinese, Italian, and more—experience the <br>most delicious Sri Lankan and other international cuisine<br> in a great environment, at an affordable price, with<br> generous portions. Enjoy all these mouth-watering<br> dishes, carefully prepared to perfection.</p>
+            <div class="dining-options">
+                <div class="option">
+                    <img src="images/dining.jpg" alt="Dining Experience">
+                    <h3>Discover Your Perfect Dining Experience</h3>
+                    <p>At our restaurant, we believe that every meal should be more than just food—it should be an unforgettable experience.</p></div>
+                <div class="option">
+                    <img src="images/park.jpg" alt="Parking Capacities">
+                    <h3>Parking Capacities</h3>
+                    <p> No need to worry about finding a spot—just park, relax, and enjoy your time with us.</p>
+                </div>
+                <div class="option">
+                    <img src="images/promotions.jpg" alt="Promotions">
+                    <h3>Promotions</h3>
+                    <p>From special discounts on your favorite dishes to exclusive deals that add extra value to your meal, there's always something to look forward to.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="our-story">
+        <div class="story">
+            <div class="storyset">
+                <p style="color: gold;">OUR STORY</p>
+                <H1>The Gallery Café</H1>
+                <P>The Gallery Café, located in the heart of Colombo, <br>Sri Lanka, has been a culinary gem for over 5 years.<br> Established in 2018 by Mr. shamil , the café has<br> earned a stellar reputation across the country for <br>its exquisite and flavorful cuisine. Known for<br> delivering delicious dishes in a warm and inviting<br> atmosphere, The Gallery Café continues to be a<br> favorite dining destination for locals and visitors alike.</P>
+                      <h3>Book Through Call</h3>
+                      <h1>+94 777670923</h1>
+            </div>
+            <div class="storyset">
+                <img src="images/stock-photo-young-professional-chef-uniform-spreading-ingredients-pizza-flatbread-while-standing.jpg">
+            </div>
+           </div>
+    </section>
+
+
+    
+    <section id="special">
+           <div class="story">
+           
+            <div class="storyset">
+                <img src="images/special-dish-banner.jpg">
+        
+            </div>
+            <div class="storyset">
+             
+               
+                <H1>SPECIAL FOOD<br> AND BEVERAGES</H1>
+                <P>Indulge in the rich flavors of Sri Lanka with our Special <br>Food and Beverages offer. Enjoy unbeatable discounts on <br>your favorite local dishes like Kottu, Paratha, and our<br> mouth-watering Fried Seafood. Dive into the exotic taste <br>of Mongolian cuisine and other tantalizing options that promise to satisfy <br>your cravings.
+            </div>
+           </div>
+        
+    </section>
+    
+
+
+
+
+    <section id="event">
+
+        <div class="upcoming-event-container">
+            <h1 class="title">Upcoming Event</h1>
+            <div class="events">
+                <div class="event-card">
+                    <div class="event-date">15/12/2024</div>
+                    <img src="images/event-1.jpg" alt="Food Flavour" class="event-image">
+                    <div class="event-type">FOOD, FLAVOUR</div>
+                    <p class="event-description">Flavour so good you’ll try to eat with your eyes.</p>
+                </div>
+                <div class="event-card">
+                    <div class="event-date">18/09/2024</div>
+                    <img src="images/event-2.jpg" alt="Carnival" class="event-image">
+                    <div class="event-type">CARNIVAL</div>
+                    <p class="event-description">Flavour so good you’ll try to eat with your eyes.</p>
+                </div>
+                <div class="event-card">
+                    <div class="event-date">24/11/2024</div>
+                    <img src="images/event-3.jpg" alt="Black Friday" class="event-image">
+                    <div class="event-type">BLACK FRIDAY</div>
+                    <p class="event-description">Flavour so good you’ll try to eat with your eyes.</p>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+    <section id="menusection">
+        <section class="menu-section">
+            <div class="menu-header">
+                <p class="special-selection">Special Promotion</p>
+                <h1 class="menu-title" style="color: azure;">All Special Menu</h1>
+            </div>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="images/54308405.jpg" alt="dum biryani" class="menu-image">
+                    <div class="menu-details">
+                        <h2 class="menu-name">Dum biryani <span class="menu-label seasonal">Seasonal</span></h2>
+                        <p class="menu-description">
+                            Dum Biryani is a spiced rice dish with marinated meat or vegetables, slow-cooked for rich flavor</p>
+                    </div>
+                    <div class="menu-price">LKR 2500</div>
+                </div>
+    
+                <div class="menu-item">
+                    <img src="images/Nasi-Goreng-Indonesian-Fried-Rice-SQ.jpg" alt="Nasi goreng" class="menu-image">
+                    <div class="menu-details">
+                        <h2 class="menu-name">Nasi goreng <span class="menu-label seasonal">Seasonal</span></h2>
+                        <p class="menu-description">Nasi Goreng is a flavorful Indonesian fried rice dish often with vegetables meat and a savory soy-based sauce.</p>
+                    </div>
+                    <div class="menu-price">LKR 1500</div>
+                </div>
+    
+                <div class="menu-item">
+                    <img src="images/Pg-110-111-Fruity-prawn-curry-1.jpg" alt="Prawn Curry" class="menu-image">
+                    <div class="menu-details">
+                        <h2 class="menu-name">Prawn Curry</h2>
+                        <p class="menu-description">Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green bell pepper.</p>
+                    </div>
+                    <div class="menu-price">LKR 1500</div>
+                </div>
+    
+                <div class="menu-item">
+                    <img src="images/902_Mediterranean-Style-Vegetable-Lasagne-V_001_0-1701357502619.jpg" alt="Lasagne" class="menu-image">
+                    <div class="menu-details">
+                        <h2 class="menu-name">Lasagne</h2>
+                        <p class="menu-description">
+                            Lasagne is layered pasta with meat, cheese, and sauce, baked together.</p>
+                    </div>
+                    <div class="menu-price">LKR 3500</div>
+                </div>
+    
+                <div class="menu-item">
+                    <img src="images/istockphoto-1892520856-612x612.jpg" alt="cheese kottu" class="menu-image">
+                    <div class="menu-details">
+                        <h2 class="menu-name">cheese kottu <span class="menu-label new">New</span></h2>
+                        <p class="menu-description">
+                            Cheese Kottu is a Sri Lankan dish combining chopped roti with cheese, vegetables, and spices, stir-fried together.</p>
+                    </div>
+                    <div class="menu-price">LKR 1800</div>
+                </div>
+    
+                <!-- New Items -->
+    
+                <div class="menu-item">
+                    <img src="images/gluten-free-chicken-parmesan-rc-1.jpg" alt="Chicken Parmesan" class="menu-image">
+                    <div class="menu-details">
+                        <h2 class="menu-name">Chicken Parmesan <span class="menu-label special">Special</span></h2>
+                        <p class="menu-description">Breaded chicken breast, marinara sauce, and melted mozzarella.</p>
+                    </div>
+                    <div class="menu-price">LKR 2200</div>
+                </div>
+    
+                <div class="menu-item">
+                    <img src="images/Sri-lankan-fish-ambulthiyal-islandsmile.org-5958-e1553017872304-1.jpg" alt="Fish Ambul Thiyal" class="menu-image">
+                    <div class="menu-details">
+                        <h2 class="menu-name">Fish Ambul Thiyal <span class="menu-label seasonal">Seasonal</span></h2>
+                        <p class="menu-description">
+                            Fish Ambul Thiyal is a Sri Lankan sour fish curry made with tamarind and a blend of spices.</p>
+                    </div>
+                    <div class="menu-price">LKR 3000</div>
+                </div>
+                <div class="menu-item">
+                    <img src="images/Food-Adventures-in-Sri-Lanka-800x1000.jpg" alt="Jaffna crab curry" class="menu-image">
+                    <div class="menu-details">
+                        <h2 class="menu-name">Jaffna crab curry <span class="menu-label seasonal">Seasonal</span></h2>
+                        <p class="menu-description">
+                            Jaffna Crab Curry is a spicy Sri Lankan crab dish with aromatic spices and coconut.</p>
+                    </div>
+                    <div class="menu-price">LKR 3000</div>
+                </div>
+                <div class="menu-item">
+                    <img src="images/pizzza.jpeg" alt="Margherita Pizza" class="menu-image">
+                    <div class="menu-details">
+                        <h2 class="menu-name">Margherita Pizza <span class="menu-label seasonal">Seasonal</span></h2>
+                        <p class="menu-description">Tomato sauce, fresh mozzarella, and basil.</p>
+                    </div>
+                    <div class="menu-price">LKR 3000</div>
+                </div>
+    
+                <div class="menu-item">
+                    <img src="images/birria-taco-2.jpg" alt="Beef Tacos" class="menu-image">
+                    <div class="menu-details">
+                        <h2 class="menu-name">Beef Tacos</h2>
+                        <p class="menu-description">Ground beef, lettuce, cheese, salsa, and sour cream.</p>
+                    </div>
+                    <div class="menu-price">LKR 1800</div>
+                </div>
+            </div>
+            <center> <a href="Allmenu.php">  <button class="view-menu-button"> View Menu</button></a></center>
+        </section>
+    </section>
+   
+          
+            
+
+        </div>
+        <div class="menu-footer">
+            <p class="menu-time"><span></span></p>
+         
+        </div>
+    </section>
+</section>
+
+
+
+
+
+
+<section id ="contact">
+
+    <div class="footersection">
+       
+        <div class="footer">
+            <h2>Follow Us</h2>
+            <p><i class="fa-brands fa-facebook"></i>
+            Facebook<br>
+            <i class="fa-brands fa-instagram"></i>  Instagram</p>
+           
+        </div>
+    
+        <div class="footer">
+            <h2>Restaurant Opening Hours</h2>
+            <p>11:00 A.M. to 03:00 P.M.
+    <br>
+                06:00 P.M. to 11:00 P.M.</p>
+        </div>
+    
+    
+        <div class="contact" style="color: white;">
+            <h2>Contact US</h2>
+            <p><i class="fa-sharp fa-solid fa-location-dot"></i>100 mount lavinia Road, Colombo <br>
+    
+                <i class="fa-solid fa-phone"></i>+94 777670923<br>
+                
+                <i class="fa-solid fa-phone"></i>(+94)112 807 807<br>
+                
+                <i class="fa-solid fa-envelope"></i>infoShamil@GalleryCafe.com</p>
+        </div>
+    
+    
+    </div>
+    
+    
+    <div class="copyright">
+        <p>        Copyright © GalleryCafe. All rights reserved.
+        </p>
+    
+    
+    
+    </div>
+</section>
+
+</body>
+</html>

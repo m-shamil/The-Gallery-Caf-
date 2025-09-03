@@ -107,7 +107,8 @@ Place images in the `/screenshots` folder and reference them like this:
 
 ### 🧑‍🍳 Staff Dashboard
 
-![Staff Dashboard](screenshots/staff-dashboard.png)
+<img width="1924" height="954" alt="image" src="https://github.com/user-attachments/assets/cbc12b09-6c2a-451c-8382-fa88f3aea6b2" />
+
 
 ### 📅 Reservation Form
 

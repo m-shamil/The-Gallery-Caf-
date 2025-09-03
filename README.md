@@ -120,7 +120,6 @@ Place images in the `/screenshots` folder and reference them like this:
 ### 1. Install Requirements
 
 * Download and install [WAMPServer](https://www.wampserver.com/).
-* Ensure **Apache** and **MySQL** services are running.
 
 ### 2. Set Up the Project
 

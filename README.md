@@ -73,6 +73,16 @@ Place images in the `/screenshots` folder and reference them like this:
 
 <img width="1902" height="813" alt="image" src="https://github.com/user-attachments/assets/db6f93b8-c50d-4e02-86fd-e904d42ae2d8" />
 
+<img width="1908" height="822" alt="image" src="https://github.com/user-attachments/assets/76099718-c498-4e30-aeb4-16b8539d9589" />
+
+
+<img width="1903" height="815" alt="image" src="https://github.com/user-attachments/assets/6dbcb88f-e41a-4eca-8a3d-255431b4b15b" />
+
+<img width="1898" height="224" alt="image" src="https://github.com/user-attachments/assets/ca49b91a-8eb1-4c6a-807b-4f5f343a587e" />
+
+
+
+
 
 
 

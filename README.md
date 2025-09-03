@@ -89,11 +89,18 @@ Place images in the `/screenshots` folder and reference them like this:
 
 ### 🍽️ Menu Page
 
-![Menu Page](screenshots/menu.png)
+
+<img width="1914" height="940" alt="image" src="https://github.com/user-attachments/assets/7553ce75-f337-49aa-8e5f-cae099f2005d" />
+
 
 ### 👨‍💻 Admin Dashboard
 
-![Admin Dashboard](screenshots/admin-dashboard.png)
+
+<img width="1905" height="949" alt="image" src="https://github.com/user-attachments/assets/cbddb326-108d-4e2c-867f-187097c43054" />
+
+<img width="1906" height="374" alt="image" src="https://github.com/user-attachments/assets/5884f2c6-ab64-43aa-8301-56d14b69fac5" />
+
+
 
 ### 🧑‍🍳 Staff Dashboard
 

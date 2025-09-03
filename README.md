@@ -83,6 +83,9 @@ Place images in the `/screenshots` folder and reference them like this:
 
 
 
+# 🧑‍🍳 Staff Dashboard Login
+
+****<img width="1935" height="947" alt="image" src="https://github.com/user-attachments/assets/890fd758-2cbd-49e3-a5d8-ccfe4cf43d6e" />
 
 
 
